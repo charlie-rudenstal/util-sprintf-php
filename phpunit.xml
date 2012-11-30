@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit colors="true" syntaxCheck="true" processIsolation="true">
+    
+    <testsuite name="AbTest">
+        <directory>./tests</directory>     
+    </testsuite>
+
+    <filter>
+        <blacklist>
+            <directory suffix=".php">tests/</directory>
+        </blacklist>
+    </filter>
+   
+</phpunit>
