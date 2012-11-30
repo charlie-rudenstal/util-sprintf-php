@@ -1,5 +1,5 @@
 {
-    "name": "jalet/util-sprinf",
+    "name": "jalet/util-sprintf",
     "description" : "PHP's sprintf for named params with type casting.",
     "homepage": "http://jalet.github.com/util-sprintf-php/",
     "type": "library",
