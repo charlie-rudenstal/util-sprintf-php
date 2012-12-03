@@ -18,6 +18,6 @@ echo Sprintf::f('My cat is %color%.', array('color' => 'brown'));
 
 
 echo Sprintf::f("INSERT INTO table (username, active) VALUES ('john.doe', %active:bool%);", array('active' => false));
-// INSERT INTO table (username, active) VALUES ('john.die', 0);
+// INSERT INTO table (username, active) VALUES ('john.doe', 0);
 
 ```
