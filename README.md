@@ -5,7 +5,7 @@ PHP's sprintf for named params with type casting.
 
 ###
 ```php
-use Jalet\Util;
+use Jalet\Util\Sprintf;
 
 echo Sprintf::f("I am %age:int% years old.", array('age' => '25y'));
 // I am 25 years old.
